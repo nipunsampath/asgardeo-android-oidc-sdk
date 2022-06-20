@@ -86,7 +86,7 @@ publishing {
                 username = nexusUsername
                 password = nexusPassword
             }
-
+            allowInsecureProtocol = true
             url = version.endsWith('SNAPSHOT') ? nexusSnapshotUrl : nexusReleaseUrl
         }
     }
